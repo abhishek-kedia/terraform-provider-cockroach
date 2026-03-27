@@ -7,6 +7,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Added
+
+- Added missing cloud roles to `cockroach_user_role_grant` and
+  `cockroach_user_role_grants` resources: `METRICS_VIEWER`, `CLUSTER_MONITOR`,
+  and `BILLING_VIEWER`.
+
 ## [1.18.0] - 2026-03-20
 
 ### Added
